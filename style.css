@@ -1,0 +1,60 @@
+#screen{
+    height: 60px;
+    width: 320px;
+    background-color: #f3f3f3;
+    position: relative;;
+    margin: 0 auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-style: double;
+    border-bottom-color: #cfcdcd;
+    border-bottom-width: 4px;
+}
+
+#clearButton{
+    margin-left: 20px;
+    margin-right: 25px;
+    margin-top: 10px;
+    height: 40px;
+    width: 60px;
+}
+
+#numberPad{
+    width: 320px;
+    height: 340px;
+    background-color: #f3f3f3;
+    position: relative;
+    margin: 0 auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#displayNum{
+    color: grey;
+    text-align: right;
+    margin-right: 35px;
+    margin-top: -30px;
+
+}
+
+.numPad{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 20px;
+    height: 40px;
+    width: 50px;
+}
+
+a:hover{
+    /* color: inherit; */
+    border-bottom: 2px solid #fc0;
+    background-image: linear-gradient(120deg, #fc0 0%, #fc0 100%);
+    background-repeat: no-repeat;
+    /* background-size: 100% 0.0em;  */
+    background-position: 0 100%;
+    transition: background-size 1s cubic-bezier(.68,-0.55,.27,1.55);
+    transition-property: background-size;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    transition-delay: 0s;
+}
